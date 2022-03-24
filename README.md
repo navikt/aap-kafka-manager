@@ -1,7 +1,16 @@
 # aap-kafka-manager
-Kafka manager for aap
+Kafka manager for aap.
 
-Source: https://github.com/navikt/kafka-manager
+Fork av: https://github.com/navikt/kafka-manager
 
-Folk som har tilgang: [Azure AD](http://mygroups.microsoft.com/)
-gruppe `aap`.
+## Legg til topic
+1. Legg til topic config nederst i [nais.yml](nais.yml)
+2. Legg til denne appen i avien topic.yml ACL definisjon <br>
+```yaml
+- team: aap
+  application: aap-kafka-manager
+  access: read
+```
+
+## Legg til bruker
+Folk i AD Gruppa `aap`: [Azure AD](http://mygroups.microsoft.com/)
