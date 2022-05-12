@@ -49,19 +49,19 @@ spec:
                 "name": "aap.sokere.v1",
                 "location": "AIVEN",
                 "keyDeserializerType": "STRING",
-                "valueDeserializerType": "AVRO"
+                "valueDeserializerType": "STRING"
               },
               {
                 "name": "aap.inntekter.v1",
                 "location": "AIVEN",
                 "keyDeserializerType": "STRING",
-                "valueDeserializerType": "AVRO"
+                "valueDeserializerType": "STRING"
               },
               {
                 "name": "aap.manuell.v1",
                 "location": "AIVEN",
                 "keyDeserializerType": "STRING",
-                "valueDeserializerType": "AVRO"
+                "valueDeserializerType": "STRING"
               },
               {
                 "name": "aap.medlem.v1",
