@@ -64,6 +64,12 @@ spec:
                 "valueDeserializerType": "STRING"
               },
               {
+                "name": "aap.personopplysninger.v1",
+                "location": "AIVEN",
+                "keyDeserializerType": "STRING",
+                "valueDeserializerType": "STRING"
+              },
+              {
                 "name": "aap.medlem.v1",
                 "location": "AIVEN",
                 "keyDeserializerType": "STRING",
