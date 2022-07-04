@@ -58,12 +58,6 @@ spec:
                 "valueDeserializerType": "STRING"
               },
               {
-                "name": "aap.manuell.v1",
-                "location": "AIVEN",
-                "keyDeserializerType": "STRING",
-                "valueDeserializerType": "STRING"
-              },
-              {
                 "name": "aap.personopplysninger.v1",
                 "location": "AIVEN",
                 "keyDeserializerType": "STRING",
@@ -89,6 +83,54 @@ spec:
               },
               {
                 "name": "aap.utbetalingsbehov.v1",
+                "location": "AIVEN",
+                "keyDeserializerType": "STRING",
+                "valueDeserializerType": "STRING"
+              },
+              {
+                "name": "aap.manuell.11-2.v1",
+                "location": "AIVEN",
+                "keyDeserializerType": "STRING",
+                "valueDeserializerType": "STRING"
+              },
+              {
+                "name": "aap.manuell.11-3.v1",
+                "location": "AIVEN",
+                "keyDeserializerType": "STRING",
+                "valueDeserializerType": "STRING"
+              },
+              {
+                "name": "aap.manuell.11-4.v1",
+                "location": "AIVEN",
+                "keyDeserializerType": "STRING",
+                "valueDeserializerType": "STRING"
+              },
+              {
+                "name": "aap.manuell.11-5.v1",
+                "location": "AIVEN",
+                "keyDeserializerType": "STRING",
+                "valueDeserializerType": "STRING"
+              },
+              {
+                "name": "aap.manuell.11-6.v1",
+                "location": "AIVEN",
+                "keyDeserializerType": "STRING",
+                "valueDeserializerType": "STRING"
+              },
+              {
+                "name": "aap.manuell.11-12.v1",
+                "location": "AIVEN",
+                "keyDeserializerType": "STRING",
+                "valueDeserializerType": "STRING"
+              },
+              {
+                "name": "aap.manuell.11-29.v1",
+                "location": "AIVEN",
+                "keyDeserializerType": "STRING",
+                "valueDeserializerType": "STRING"
+              },
+              {
+                "name": "aap.manuell.beregningsdato.v1",
                 "location": "AIVEN",
                 "keyDeserializerType": "STRING",
                 "valueDeserializerType": "STRING"
